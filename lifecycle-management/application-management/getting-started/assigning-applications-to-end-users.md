@@ -26,27 +26,23 @@ Users with admin roles such as Organization Admin, Domain Admin, or Application 
 The flow for assignment goes as follows -&#x20;
 
 \
-\
-
+<br>
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452593/original/OeB-MQUg9xDm_Lut2kePYwlqqDDAB5vIAA.png?1649361758" alt=""><figcaption><p>Assignment Flow 1</p></figcaption></figure>
 
 **Description:**
 
 1. Admin clicks on the application tile, and starts the configuration.
-2.  Click on the Assignments tab on the left hand side menu.\
-
+2.  Click on the Assignments tab on the left hand side menu.<br>
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452599/original/nbuQEr1_YjbmPYpqc7LoRXnv4LSehpVcXA.png?1649361774" alt=""><figcaption></figcaption></figure>
 3.  Click on the “Assign New” button on the Users menu.\
-    \
-
+    <br>
 
     ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452608/original/sxN2BHQBNXwusaI7jzq-mioYIrOsOMowfQ.png?1649361803)
 4. Search for a user in the search text box, and once the user is found, click on the “Assign” button.\
    \
-   ![](<../../../.gitbook/assets/image (321).png>)\
-
+   ![](<../../../.gitbook/assets/image (321).png>)<br>
 5. Here we need to decide whether we want to provide a Lifetime Access or a Time Based Access
    1. Lifetime Access: Users have access to the application without any time restrictions.
    2. Time Based Access: Users have access to the application only for the specified range of time. We need to provide a Start Date & Time and an End Date & Time for Time Based Access.
@@ -60,8 +56,7 @@ The flow for assignment goes as follows -&#x20;
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452822/original/k9DcpEWagBvk1GTXFm2hL0CQBfIijv5B0g.png?1649362035" alt=""><figcaption></figcaption></figure>
 10. The approver may change the start and end date, if required; refer to the dynamic form attributes passed during the application assignment.
 11. To continue the flow click on Accept button.
-12. Now the next level of approver will be able to see the previous levels of approval, and similar to the previous level of approval, the approver may change the start and end date, if required; refer to the dynamic form attributes passed during the application assignment.\
-
+12. Now the next level of approver will be able to see the previous levels of approval, and similar to the previous level of approval, the approver may change the start and end date, if required; refer to the dynamic form attributes passed during the application assignment.<br>
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452839/original/szqPQHWWV4Dr4usjPr9vApQUe8eOcRHGYQ.png?1649362063" alt=""><figcaption></figcaption></figure>
 13. Click “Accept” to proceed.
@@ -126,8 +121,7 @@ The flow for an end-user to request for an application is as follows:
 
 4\. Click on the Application Icon to start the request process\
 \
-![](<../../../.gitbook/assets/image (321).png>)\
-
+![](<../../../.gitbook/assets/image (321).png>)<br>
 
 1. Here we need to decide whether we want to provide a Lifetime Access or a Time Based Access
    1. Lifetime Access: Users have access to the application without any time restrictions.
@@ -142,8 +136,7 @@ The flow for an end-user to request for an application is as follows:
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452822/original/k9DcpEWagBvk1GTXFm2hL0CQBfIijv5B0g.png?1649362035" alt=""><figcaption></figcaption></figure>
 6. The approver may change the start and end date, if required; refer to the dynamic form attributes passed during the application assignment.
 7. To continue the flow click on Accept button.
-8.  Now the next level of approver will be able to see the previous levels of approval, and similar to the previous level of approval, the approver may change the start and end date, if required; refer to the dynamic form attributes passed during the application assignment.\
-
+8.  Now the next level of approver will be able to see the previous levels of approval, and similar to the previous level of approval, the approver may change the start and end date, if required; refer to the dynamic form attributes passed during the application assignment.<br>
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452839/original/szqPQHWWV4Dr4usjPr9vApQUe8eOcRHGYQ.png?1649362063" alt=""><figcaption></figcaption></figure>
 9. Click “Accept” to proceed.

@@ -1,7 +1,6 @@
 # SCIM 2.0 with Bearer Authentication
 
-1.  Any application which supports SCIM v2.0 with bearer token is workable for application.\
-
+1.  Any application which supports SCIM v2.0 with bearer token is workable for application.<br>
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003459811/original/PSROuSBIchNyli__tGejfJE4XLTOK7bpxg.png?1649374849" alt=""><figcaption></figcaption></figure>
 

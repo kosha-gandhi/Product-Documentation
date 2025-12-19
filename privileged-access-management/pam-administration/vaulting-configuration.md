@@ -34,8 +34,7 @@ For Generating Password for Vault User we need to do the following configuration
 3. Configure a scheduler to reset the password of users and send an email to the above configured use
 4. Manually send the list of usernames and passwords of all or specific users
 
-\
-
+<br>
 
 **One or more users who will receive an email that contains the list of usernames and passwords:**
 
@@ -43,8 +42,7 @@ For adding users who will receive the email containing the list of usernames and
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84028159261/original/sntoszZmJccQwKfI_9DqEZS3vo6U_M0Z-g.png?1678254577" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 **Password for opening the file which contains the list of usernames and passwords**
 
@@ -52,8 +50,7 @@ For Configuring the password simply enter the password in the password box provi
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84028159295/original/iqUrHg6cBzoWw3kOzFmGrc-tssohzbmq4A.png?1678254624" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 **Configure a scheduler to reset the password of users and send an email to the above configured use**
 
@@ -68,8 +65,7 @@ The cron expression can also be generated using the Generate Cron Expression opt
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84027742047/original/yTI5ZYzrYE5Y5zeYF0tuhncoFHnzj0PZPw.png?1677829170" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 **Manually reset and send the list of usernames and passwords of all or specific users**
 

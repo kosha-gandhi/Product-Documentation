@@ -36,8 +36,7 @@ _Note: Basic configuration is already provided in cymmetri master application. I
 
        Eg:  For Oracle Driver Class Name is oracle.jdbc.driver.OracleDriver\
        &#x20;       For MySQL is org.gjt.mm.mysql.Driver\
-       &#x20;      For PostgreSQL is org.postgresql.Driver\
-
+       &#x20;      For PostgreSQL is org.postgresql.Driver<br>
 
        <figure><img src="../../../.gitbook/assets/image (740).png" alt=""><figcaption></figcaption></figure>
    5. JDBC Connection URL :- Specify the JDBC Driver Connection URL. \

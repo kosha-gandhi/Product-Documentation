@@ -31,8 +31,7 @@ Let us explore what both these flows mean and how to configure your managed appl
 
 The SAML 2.0 Service Provider Initiated flow indicates that the Service Provider (in our case, the managed application which the end-user wishes to access via Single Sign On) has started the SAML 2.0 Single Sign On process by sending a SAML 2.0 request XML to the Cymmetri platform. This is achieved by the user landing on the Single Sign On URL of the managed application.&#x20;
 
-In practice, however, since the user is typically on the Cymmetri platform, we have enabled mechanisms to redirect the user to the Single SignOn URL of the managed application, when the user clicks on the application tile.\
-
+In practice, however, since the user is typically on the Cymmetri platform, we have enabled mechanisms to redirect the user to the Single SignOn URL of the managed application, when the user clicks on the application tile.<br>
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003448986/original/fL7_kRe0B-96XJwH90w5fD5sGo7gIeFaRA.png?1649356880" alt=""><figcaption></figcaption></figure>
 

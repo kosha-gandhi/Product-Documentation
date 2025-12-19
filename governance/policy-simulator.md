@@ -84,8 +84,7 @@ The administrator can share the generated reports with relevant stakeholders. Th
 
 <figure><img src="../.gitbook/assets/image11 (1).png" alt=""><figcaption></figcaption></figure>
 
-All previously created and run policies are accessible for review and historical analysis under the History tab, providing a complete audit trail of policy enforcement activities.\
-
+All previously created and run policies are accessible for review and historical analysis under the History tab, providing a complete audit trail of policy enforcement activities.<br>
 
 <figure><img src="../.gitbook/assets/image1 (12).png" alt=""><figcaption></figcaption></figure>
 
@@ -104,4 +103,4 @@ After applying the desired filters and selecting the columns to display, the adm
 <figure><img src="../.gitbook/assets/image12 (4).png" alt=""><figcaption></figcaption></figure>
 
 Refer for creating [Campaigns](access-certification/).\
-\
+<br>

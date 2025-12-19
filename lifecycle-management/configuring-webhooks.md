@@ -9,12 +9,10 @@ Events may be received for the following events -&#x20;
 1.  Testing Webhook - Generates a POST request to the /test endpoint of the web server hosted by the tenant. It provides an authorization token that can be used for making any API calls to the Cymmetri Cloud 2.0 APIs. Is generated after this configuration.\
     \
     Go to the Configuration Menu and Select the webhooks menu -\
-    \
-
+    <br>
 
     Click on the save & test button.\
-    \
-
+    <br>
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003440699/original/aFQWevUqkU3Ac0_VaM8mTW7G_K3QE2GK1g.png?1649346917" alt=""><figcaption></figcaption></figure>
 2. Pre Create User - Generates a POST request, before the user is created, to the /preCreateUser endpoint of the web server hosted by the tenant.
@@ -27,8 +25,7 @@ Events may be received for the following events -&#x20;
 9. Post Provision - Generates a POST request, after the provisioning of the user to an application, to the /postProvision endpoint of the web server hosted by the tenant.
 10. Policy Map - Generates a POST request, while assigning the application to a user, to the /policyMap endpoint of the web server hosted by the tenant.
 11. Deprovision Run - Generates a POST request, upon the update of a user to deprovision a user, to the /runDeprovision endpoint of the web server hosted by the tenant.\
-    \
-
+    <br>
 
 While other webhooks operate on a principle of fire-and-forget, the validateUser and the validateUpdateUser expect the response from the tenant as the same or modified body as sent to it for validation.
 
@@ -131,8 +128,7 @@ curl --location --request POST '[https://52.66.206.31:8080/webhook/preCreateUser
 &#x20;   }
 
 }'\
-\
-
+<br>
 
 Response: {
 
@@ -241,8 +237,7 @@ Input needed:&#x20;
 }
 
 \
-\
-
+<br>
 
 Curl request:&#x20;
 
@@ -281,8 +276,7 @@ curl --location --request POST '[http://192.168.1.193:8080/webhook/preUpdateUser
 }'
 
 \
-\
-
+<br>
 
 Response
 
@@ -388,8 +382,7 @@ curl --location --request POST '[http://192.168.1.193:8080/webhook/postUpdateUse
 }'
 
 \
-\
-
+<br>
 
 Response:  NA
 
@@ -478,8 +471,7 @@ Response: {
 }
 
 \
-\
-
+<br>
 
 **Validate update user**&#x20;
 
@@ -514,8 +506,7 @@ Input needed:&#x20;
 }
 
 \
-\
-
+<br>
 
 Curl request:&#x20;
 
@@ -606,8 +597,7 @@ Input Needed :
 }
 
 \
-\
-
+<br>
 
 Curl request: curl --location --request POST '[http://192.168.1.193:8080/webhook/changePassword](http://192.168.1.193:8080/webhook/changePassword)' \\
 
@@ -902,8 +892,7 @@ Input needed :&#x20;
 }
 
 \
-\
-
+<br>
 
 Curl request :
 
@@ -950,8 +939,7 @@ curl --location --request POST '[https://52.66.206.31:8080/webhook/policymap](ht
 }'
 
 \
-\
-
+<br>
 
 Response :&#x20;
 

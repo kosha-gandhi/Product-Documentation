@@ -6,13 +6,11 @@ In the absence of the ability of the managed application to adopt either the SAM
 
 ## REST API based SSO Explained
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451746/original/kckP_vnMBdzvm-JfPggytqLjYKabq8dxsQ.png?1649360578)
 
-\
-
+<br>
 
 ### Flow Description
 
@@ -38,8 +36,7 @@ For configuring the REST API based SSO mechanism, first select the application a
 
 Then proceed to the SSO configuration using the “SignOn” link in the left-hand side menu bar.
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451755/original/imecqkCh2mufq16Nr5PUvTH1Tb2JStgR9w.png?1649360593)
 

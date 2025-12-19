@@ -185,6 +185,7 @@
   * [Vault User](privileged-access-management/pam-administration/vault-user.md)
   * [Vaulting Configuration](privileged-access-management/pam-administration/vaulting-configuration.md)
   * [Break Glass Configuration](privileged-access-management/pam-administration/break-glass-configuration.md)
+  * [Sign-On Policies](privileged-access-management/pam-administration/sign-on-policies.md)
   * [PAM Reports and PAM History](privileged-access-management/pam-administration/pam-reports-and-pam-history.md)
   * [Dormancy Disable Config](privileged-access-management/pam-administration/dormancy-disable-config.md)
 * [PAM Usage](privileged-access-management/pam-usage/README.md)

@@ -27,8 +27,7 @@ Below is a step-by-step guide for accessing Cymmetri and completing the first-ti
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003393879/original/6hNmxbJ26wiVSjHy3BVn2olUvHoQ9C99gg.png?1649310991" alt=""><figcaption></figcaption></figure>
 
-5.  After the user has reset the initial password successfully, if Multi-Factor Authentication is configured for the user, Cymmetri asks the user to register for Multi-Factor Authentication using the Cymmetri Authenticator. The system will guide the user to setup their MFA.  \
-
+5.  After the user has reset the initial password successfully, if Multi-Factor Authentication is configured for the user, Cymmetri asks the user to register for Multi-Factor Authentication using the Cymmetri Authenticator. The system will guide the user to setup their MFA.  <br>
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003394028/original/3FtjnYZIfyPuFOTbh3hd5VTQMPVtYMUo5w.png?1649311116" alt=""><figcaption></figcaption></figure>
 6. On clicking the Cymmetri Authenticator option, the user will be required to scan a QR code using the Cymmetri Authenticator mobile application.&#x20;

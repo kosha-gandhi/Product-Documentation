@@ -51,8 +51,7 @@ Located on the right side of the dashboard, the Shortcuts section offers quick a
 
 <figure><img src="../.gitbook/assets/unknown (124).png" alt=""><figcaption></figcaption></figure>
 
-*   **Deactivate User:** Displays a list of active users, allowing you to deactivate an account and revoke access.\
-
+*   **Deactivate User:** Displays a list of active users, allowing you to deactivate an account and revoke access.<br>
 
     <figure><img src="../.gitbook/assets/unknown (125).png" alt=""><figcaption></figcaption></figure>
 

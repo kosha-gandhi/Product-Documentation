@@ -61,5 +61,5 @@ Apart from the out of box reports, Cymmetri provides custom reporting and dashbo
 * [Segregation Of Duties & Violation Policies](../segregation-of-duties-sod.md)
 * [Multi-Factor based Authentication](../../single-sign-on/multifactor-authentication-mfa/)&#x20;
 * [Passwordless Authentication](../../single-sign-on/passwordless/)
-* [Privileged Access Policy](broken-reference)
+* [Privileged Access Policy](/broken/pages/Q1ZYYKbnfQub2utdaP2S)
 * [IGA Policy Management](iga-policy-violations.md)

@@ -58,8 +58,7 @@ Now, click on the Admins sub-menu within the Configuration menu
 
 <figure><img src="../../.gitbook/assets/image (459).png" alt=""><figcaption></figcaption></figure>
 
-Click on the "**+Add New**" button to add a new administrator\
-
+Click on the "**+Add New**" button to add a new administrator<br>
 
 <figure><img src="../../.gitbook/assets/image (396).png" alt=""><figcaption></figcaption></figure>
 

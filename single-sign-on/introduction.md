@@ -40,8 +40,7 @@ Once in the applications menu, click on the application tile for which you need 
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003447798/original/BZ4tNaZ7G4oLqN3FRqiCf5O_Qy2JUMOeDg.png?1649355242)
 
-\
-
+<br>
 
 Toggle the “Enable Single Sign-On (SSO)” switch to open the corresponding configuration options.
 

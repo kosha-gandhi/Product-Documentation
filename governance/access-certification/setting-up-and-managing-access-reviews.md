@@ -24,8 +24,7 @@ On selecting Identity Governance option the page shown below opens where Existin
 
 #### Campaign Details &#x20;
 
-Click on Add New to create a Campaign and steps for creation is shown as below :\
-
+Click on Add New to create a Campaign and steps for creation is shown as below :<br>
 
 <figure><img src="../../.gitbook/assets/image (811).png" alt=""><figcaption></figcaption></figure>
 

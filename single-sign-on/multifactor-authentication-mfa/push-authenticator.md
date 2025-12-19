@@ -22,8 +22,7 @@ Next we move to configure the rules for Multi-factor authentication policy for l
 
 Click on the pencil icon to start editing the rule.Optionally you may also add a new rule by clicking on the "+ Add New" button.&#x20;
 
-For adding a New Rule enter Name of the Rule and Description also Enable the rule; you may optionally select whether you want to enable Adaptive MFA and the click on the Save button to add the rule\
-
+For adding a New Rule enter Name of the Rule and Description also Enable the rule; you may optionally select whether you want to enable Adaptive MFA and the click on the Save button to add the rule<br>
 
 <figure><img src="../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
 

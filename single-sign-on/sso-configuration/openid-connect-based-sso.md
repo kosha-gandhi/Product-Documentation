@@ -57,13 +57,11 @@ Typically used when a user is not involved and there is no need for ID tokens. T
 
 **Flow Diagram**
 
-\
-
+<br>
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451902/original/7gDb4C_Ob2x5h5Fm0WpNHctdxgll6f6Ygw.png?1649360851" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 **Flow Explained**
 
@@ -93,8 +91,7 @@ Typically used when a user is not involved and there is no need for ID tokens. T
 24. This user information may also be used by managed application to generate a user session.
 25. Once the user session is created, the managed application sets the session cookie on the user browser, and redirects the user to the managed application landing page.
 
-\
-
+<br>
 
 #### Configuring the Authorisation Grant Type in the Cymmetri Identity platform
 
@@ -107,26 +104,21 @@ Enable the Single SignOn by -&#x20;
 2. Clicking the toggle button on the right side.
 3. The application URL text box may be left empty OR an endpoint from the managed application may be added that can initiate the OpenID flow by making a call to the OpenID service of the Cymmetri Identity platform deployment.
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451923/original/4ED531VyDAdr5wwsoQSSkiPba0-ALMlbGQ.png?1649360915)
 
-\
+<br>
 
+<br>
 
-\
-
-
-\
-
+<br>
 
 Select the OpenId/OAuth radio button to start configuring OpenID flow
 
 Click on the dropdown for Advanced Settings (OpenID)
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451926/original/aEq0VkrDyFYvpoP4a4fhV0c7Vu8-0m39uw.png?1649360925)
 
@@ -167,8 +159,7 @@ Other profiles are optional.
 \
 Providing ‘profile’ scope overrides the settings for the ‘email', ‘address’ and ‘phone’ scopes.
 
-\
-
+<br>
 
 <div align="left"><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451950/original/JxSV3VD8LjQuPCdoQGiARIeF0YvuxA-tgg.png?1649360988" alt=""></div>
 
@@ -189,8 +180,7 @@ The managed application is expected to mention using query parameters while star
 While, we have chosen code as our return type, we could choose any other response type that also includes code return type.
 
 \
-![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451966/original/v5UJsaMJlD8P9ZCTWMlSfv_2ja79EDrZvw.png?1649361036)\
-
+![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451966/original/v5UJsaMJlD8P9ZCTWMlSfv_2ja79EDrZvw.png?1649361036)<br>
 
 Public subject type setting is used, since it is the most common mechanism for OpenID connect flows.&#x20;
 
@@ -199,8 +189,7 @@ Pairwise Mechanism may be supported upon request. Please contact Cymmetri Suppor
 \
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451968/original/wugui0kvYpv-TmGzrvWBObkIYcSEh_rPEQ.png?1649361052)
 
-\
-
+<br>
 
 This indicates the manner in which the response (access token or ID token) is shared back by the Cymmetri Identity platform to the managed application.
 
@@ -214,8 +203,7 @@ No Authentication as a response type is not to be used in the OpenID Connect flo
 \
 The current flow uses redirections to share credentials and involves user interaction. So we choose to use “Client Secret over HTTP Basic” as the response type setting for this flow.
 
-\
-
+<br>
 
 ### Configuring and Managing OpenID Connect flow for Implicit Grant Type
 
@@ -223,13 +211,11 @@ The current flow uses redirections to share credentials and involves user intera
 
 **Flow Diagram**
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452054/original/uDGEnpugklF1gQLoRb6NyNwj0AGeQm8lAQ.png?1649361098)
 
-\
-
+<br>
 
 **Flow Explained**
 
@@ -266,36 +252,29 @@ Enable the Single SignOn by -&#x20;
 2. Clicking the toggle button on the right side.
 3. The application URL text box may be left empty OR an endpoint from the managed application may be added that can initiate the OpenID flow by making a call to the OpenID service of the Cymmetri Identity platform deployment.
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452078/original/cas3x-5JuWPFVgJ3r0DnR-6jPQ9Dp2wOfw.png?1649361117)
 
-\
+<br>
 
-
-\
-
+<br>
 
 Select the OpenId/OAuth radio button to start configuring OpenID flow -
 
 Click on the dropdown for Advanced Settings (OpenID)
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452099/original/hHMaKBrOzRuteKn-KFJehRrv-ho0U_xwOg.png?1649361139)
 
-\
+<br>
 
-
-\
-
+<br>
 
 **Main Dropdown Settings**
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452118/original/WRRJpB2Wo_DjDfCXRi9HT-FGSU6KsKx0Hw.png?1649361181)
 
@@ -308,8 +287,7 @@ Click on the dropdown for Advanced Settings (OpenID)
 
 **Scope Settings**
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452122/original/KzehJtY16SLJAb-q7haYBEqDpPudjV-_nQ.png?1649361193)
 
@@ -326,8 +304,7 @@ Let us understand the scopes in play here -&#x20;
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452158/original/rRR-8Bt1jsMMhRQ2raXk79pZHn5sLY7xgQ.png?1649361210)
 
-\
-
+<br>
 
 Grant Type setting lets the Cymmetri Identity platform know which flow you wish to opt for -&#x20;
 
@@ -335,13 +312,11 @@ Implicit refers to the current flow.
 
 Refresh Token has not been implemented currently for the Cymmetri Identity platform.
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452164/original/vWKU7-_qxYkITUsI_slHlNfBrJ3BtpqRSw.png?1649361227)
 
-\
-
+<br>
 
 Since this flow requires sharing the ID token directly along with access token, we may choose “id\_token” or “id\_token token” as a response type.
 
@@ -349,13 +324,11 @@ The managed application is expected to mention using query parameters while star
 
 While, we have chosen 'id\_token token' as our return type, we could choose any other response type that also includes both of these return types.
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452171/original/TAYrBpoAjl91AzuUzfgFCI_XDHDEQqlcrw.png?1649361237)
 
-\
-
+<br>
 
 Public subject type setting is used, since it is the most common mechanism for OpenID connect flows.&#x20;
 
@@ -377,8 +350,7 @@ No Authentication as a response type is not to be used in the OpenID Connect flo
 
 The current flow uses redirections to share credentials and involves user interaction. So we choose to use “Client Secret over HTTP Basic” as the response type setting for this flow.
 
-\
-
+<br>
 
 ### Configuring and Managing OpenID Connect flow for Client Credentials Grant Type
 
@@ -386,13 +358,11 @@ The current flow uses redirections to share credentials and involves user intera
 
 **Flow Diagram**
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452196/original/FkrWXnM183slUUgtVQWvYOCygS_MSy39hQ.png?1649361308)
 
-\
-
+<br>
 
 **Flow Explained**
 
@@ -420,38 +390,31 @@ Enable the Single SignOn by -&#x20;
 2. Clicking the toggle button on the right side.
 3. The application URL text box may be left empty for this flow, since the user does not need to be involved with this flow.
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452210/original/hM8R0mFcS8yxI5Ub49z0pzVtR_KQbsQRpQ.png?1649361334)
 
-\
+<br>
 
-
-\
-
+<br>
 
 Select the OpenId/OAuth radio button to start configuring OpenID flow -
 
 Click on the dropdown for Advanced Settings (OpenID)
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452226/original/lWZGFpiWUazKT6h7ImCxoC0lOslekVxg5w.png?1649361357)
 
-\
-
+<br>
 
 **Main Dropdown Settings**
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452231/original/0XBDOh-demYiIJMkiQbrn1JBeCH3FXRzQQ.png?1649361368)
 
-\
-
+<br>
 
 1. Client ID - Refers to the client\_id to be sent to the managed application.
 2. Client Name - User friendly name for the client.
@@ -478,8 +441,7 @@ Let us understand the scopes in play here -&#x20;
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452282/original/X_I-5hqkqvrX8CBCqGizRuXOmHngaHSMbA.png?1649361399)
 
-\
-
+<br>
 
 Grant Type setting lets the Cymmetri Identity platform know which flow you wish to opt for -&#x20;
 
@@ -487,13 +449,11 @@ Authorization Code refers to the current flow.
 
 Refresh Token has not been implemented currently for the Cymmetri Identity platform.
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452300/original/8M2iybB70eq3cwZuCOiDpE9_5je7J3kIOg.png?1649361410)
 
-\
-
+<br>
 
 Since this flow requires sharing the access token, and NOT the ID token, we may choose “code” as a response type.
 
@@ -503,16 +463,13 @@ The managed application is expected to mention using query parameters while star
 \
 While, we have chosen code as our return type, we could choose any other response type that also includes code return type.
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452318/original/we-0tKhbwixeq3gLB7tLCt0qFGyczigZDg.png?1649361431)
 
-\
+<br>
 
-
-\
-
+<br>
 
 
 

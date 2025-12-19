@@ -52,14 +52,12 @@ The default templates may be modified by the administrator using the following p
 <figure><img src="../../.gitbook/assets/image (799).png" alt=""><figcaption></figcaption></figure>
 
 3. Values in <> anchor tags and ${} reflect macros.
-4.  Click on the pencil icon shown above the image to edit the template.\
-
+4.  Click on the pencil icon shown above the image to edit the template.<br>
 
     <figure><img src="../../.gitbook/assets/image (798).png" alt=""><figcaption></figcaption></figure>
 5.  We may treat this template as an email and edit the subject of the email.
 
-    By default, the email notification will be sent to the corresponding affected end-user, but selecting the toggle option for “Send notification to Reporting Manager” will also copy the mail to the Reporting Manager of the affected end-user, allowing for offline follow-up for the notification.\
-
+    By default, the email notification will be sent to the corresponding affected end-user, but selecting the toggle option for “Send notification to Reporting Manager” will also copy the mail to the Reporting Manager of the affected end-user, allowing for offline follow-up for the notification.<br>
 
     <figure><img src="../../.gitbook/assets/image (800).png" alt=""><figcaption></figcaption></figure>
 6. The administrator may edit the HTML using the provided HTML editor to add/change any template button/text/background. The macros required for the particular template are already provided in the sample default notification template.

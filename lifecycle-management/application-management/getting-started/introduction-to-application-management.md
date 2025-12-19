@@ -1,8 +1,7 @@
 # Introduction to Application Management
 
 Understand how to add and manage your cloud and on-premise applications through your Cymmetri Identity platform deployment. Your Cymmetri Identity deployment allows you to manage your cloud-based applications and on-premise applications from a single administration console.\
-\
-
+<br>
 
 #### Adding Applications
 

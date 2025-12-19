@@ -8,8 +8,7 @@ A **device or server** represents the critical systems within an organization.Se
 
 Cymmetri allows you to add this device/ server.&#x20;
 
-\
-
+<br>
 
 The steps to add a RDP device or server are as below:
 
@@ -31,8 +30,7 @@ The steps to add a RDP device or server are as below:
 7. We will change these details as given below:
    1. Device Name: _Windows RDP Server_&#x20;
    2. Hostname: _65.0.122.207_&#x20;
-   3. Username: _Administrator_\
-
+   3. Username: _Administrator_<br>
 8.  And then click on **Add Device** button to add the server
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84027974706/original/v_iFM9R5dym_tIzEjefLf-Mk5m0dsiBI0Q.png?1678102764" alt=""><figcaption></figcaption></figure>
@@ -40,8 +38,7 @@ The steps to add a RDP device or server are as below:
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84027974776/original/riujBAVcUlSLY8V4WUbpA6bb1Db_agVuVg.png?1678102799" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 The steps to add a SSH device or server are as below:
 
@@ -82,8 +79,7 @@ For configuring the device further the steps are as follows:
 4.  Connection Attributes for any device are read-only as show here, but other attributes can be configured
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84027637242/original/Ty4mBnd_D6j3TbMq7yVPbp3S9Q3Qu4vXEg.png?1677739859" alt=""><figcaption></figcaption></figure>
-5.  Shown below are the attributes of a device/ server that can be configured:\
-
+5.  Shown below are the attributes of a device/ server that can be configured:<br>
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84027975733/original/MZHSJ_MVuI4-TZj4R6RXKr12-TqX1Rp_HQ.png?1678103117" alt=""><figcaption></figcaption></figure>
 

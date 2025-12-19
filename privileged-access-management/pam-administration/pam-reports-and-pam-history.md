@@ -4,8 +4,7 @@
 
 Cymmetri provide you with various PAM Reports that the administrator can use to have various insights. &#x20;
 
-For accessing PAM Reports you need to access Privilege Access Management ->Report as shown below:\
-
+For accessing PAM Reports you need to access Privilege Access Management ->Report as shown below:<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84028181638/original/_AH9wDgx0wD0-ApKxxqeCeUSILRKNKFkxQ.png?1678272958)
 

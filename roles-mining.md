@@ -98,4 +98,4 @@ After a rule has been established as a provisioning rule, the system provides an
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXUVeAGxTkhRijbj5kn05fKx-8gHFQgbn9AE3ePMqSHv_B_0yf7F5sFZUksusGr3T7q3JX7vO3PfL5sYYMwSpd1B5vLXc0Kye4kZcapyfCcVmDSGRHs-pr01eWEVZ_XtPR61k3Og?key=e82LlnAF5zKCn5Yi2h0HbQ" alt=""><figcaption></figcaption></figure>
 
-\
+<br>

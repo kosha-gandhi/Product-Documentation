@@ -8,8 +8,7 @@ For configuring the user(s) we need to select the user(s) from the dropdown as s
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84028181423/original/fD1_np28hlb9Nm-B50rAThpb7aQ3hyWVfw.png?1678272812" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 ![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84028181470/original/eQQ-Ar3fXhF7ummAe-KEBUB0zeyGh1Tc1g.png?1678272854)
 
@@ -26,15 +25,13 @@ Sending the vault user credentials can be done in two ways:
 
 &#x20;
 
-\
-
+<br>
 
 The email sent to the configured user consists of a .csv file containing user details in encrypted format as shown here:
 
 <div data-full-width="true"><figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84027754948/original/4sgrC1_zUk1WMzpWkEzih9jlTwgZHF2YTg.png?1677836873" alt=""><figcaption></figcaption></figure></div>
 
-\
-
+<br>
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84027754984/original/6mM5ppiQv5q991o8Idn8lGhXnLYe_Rf-pQ.png?1677836901" alt=""><figcaption></figcaption></figure>
 
@@ -42,4 +39,4 @@ The User then needs to use a Utility called **PassEnvelopeReader** to decrpyt th
 
 <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84027755389/original/iQ7zVwjMeP_EKrllYNRTSkwIwapNmes2Pg.png?1677837111" alt=""><figcaption></figcaption></figure>
 
-\
+<br>

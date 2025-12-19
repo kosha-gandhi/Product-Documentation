@@ -4,8 +4,7 @@
 
 A "vault user" refers to a user account that has access to a secure resources on a server. When configuring PAM, credentials of the vault user are used to connect to the destination server.
 
-Each device/ server configured can have a vault user created for it. It is also possible that a same user created at a centrally located place like an Active Directory can be used to access multiple devices/ server.\
-
+Each device/ server configured can have a vault user created for it. It is also possible that a same user created at a centrally located place like an Active Directory can be used to access multiple devices/ server.<br>
 
 Cymmetri allows you to Access and Manage Vault Users a vault user and use it to access the server.
 
@@ -31,8 +30,7 @@ Cymmetri allows you to Access and Manage Vault Users a vault user and use it to 
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84028158946/original/cnLdk3jRStEeZX1nc5DoEXq714puxuUPdw.png?1678254310" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 **Editing a vault user details:**
 
@@ -43,8 +41,7 @@ Cymmetri allows you to Access and Manage Vault Users a vault user and use it to 
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84027730928/original/AqNQBIlZcYBy85kxFYK0SotzPfF-4Syl0Q.png?1677823514" alt=""><figcaption></figcaption></figure>
 
-\
-
+<br>
 
 **Deleting a vault user:**
 

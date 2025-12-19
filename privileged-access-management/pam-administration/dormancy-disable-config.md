@@ -2,8 +2,7 @@
 
 Dormancy Disable Config  refers to configuring a setting that allows to automatically deprovision access of a user to the server in case the user has been dormant for more than the mentioned number days in this setting. This might be useful for governance purpose as PAM users are high risk users and this setting can help in removing such dormant accesses.
 
-\
-
+<br>
 
 Following steps need to be performed to configure Dormancy Disable&#x20;
 

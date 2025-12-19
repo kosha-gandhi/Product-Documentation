@@ -95,7 +95,7 @@ The Grade Master page displays a list of existing grades with:
 * **Status**
 * **Actions** (Edit option)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Add a Grade
 
@@ -103,10 +103,9 @@ The Grade Master page displays a list of existing grades with:
 2. Enter **Grade Value** (numeric).
 3. Enter **Label**.
 4. Set **Status** (Active/Inactive).
-5.  Click **Save**.\
+5.  Click **Save**.<br>
 
-
-    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 #### Edit a Grade
 
@@ -114,7 +113,7 @@ The Grade Master page displays a list of existing grades with:
 2. Update **Grade Label**, or **Status**.
 3. Save changes.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Best Practices
 

@@ -71,7 +71,7 @@ Next on the same page, there is a section called Web App Settings here click on 
 
     <figure><img src="../../../../.gitbook/assets/image (606).png" alt=""><figcaption></figcaption></figure>
 
-The above-mentioned details can be obtained by adding a service provider in Cymmetri as shown below. To know more about how to add a service provider in Cymmetri click [here](broken-reference). Once created these details can be used in Salesforce as shown above.
+The above-mentioned details can be obtained by adding a service provider in Cymmetri as shown below. To know more about how to add a service provider in Cymmetri click [here](/broken/pages/6rI3p7Z7ttGw9nNBrDRU). Once created these details can be used in Salesforce as shown above.
 
 <figure><img src="../../../../.gitbook/assets/image (607).png" alt=""><figcaption></figcaption></figure>
 
@@ -123,7 +123,7 @@ In either case, a screen opens where you need to provide the below-mentioned det
 
     <figure><img src="../../../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
 
-Once the external IDP is configured next we need to configure Authentication Rules as explained [here ](broken-reference)and as shown below. Conditions mentioned here may vary based on actual scenario in which the IDP needs to be applicable.
+Once the external IDP is configured next we need to configure Authentication Rules as explained [here ](/broken/pages/f4EIvwhQlEXpgpcq3Pad)and as shown below. Conditions mentioned here may vary based on actual scenario in which the IDP needs to be applicable.
 
 <figure><img src="../../../../.gitbook/assets/image (616).png" alt=""><figcaption></figcaption></figure>
 

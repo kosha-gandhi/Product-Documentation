@@ -2,8 +2,7 @@
 
 ## Integration with LDAP
 
-1.  For LDAP connector integration we need an LDAP server with the following detail sample.\
-
+1.  For LDAP connector integration we need an LDAP server with the following detail sample.<br>
 
     _Host/IP_
 
@@ -11,11 +10,9 @@
 
     _service user (Manager Username)_
 
-    _password (Manager User password)_\
-
+    _password (Manager User password)_<br>
 2.  After configure LDAP server we need to configure the Ldap application into the Cymmetri.\
-    \
-
+    <br>
 
     <figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003459602/original/FEBEQ4jQttkofyi5GYRpvlwtS_qEFlrcbA.png?1649374287" alt=""><figcaption></figcaption></figure>
 

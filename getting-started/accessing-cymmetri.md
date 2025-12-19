@@ -4,8 +4,7 @@ To access Cymmetri, users must use a web browser, such as <mark style="color:blu
 
 <mark style="color:blue;">URL</mark>: https://\<companyname>.cymmetri.com/login
 
-<mark style="color:blue;">Example</mark>: https://helpdocs.cymmetri.com/login\
-
+<mark style="color:blue;">Example</mark>: https://helpdocs.cymmetri.com/login<br>
 
 Once the address is entered, it opens a page as shown below, where the users may enter their username and password to access Cymmetri.
 
