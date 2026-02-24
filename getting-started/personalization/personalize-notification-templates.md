@@ -4,41 +4,59 @@ Notifications are triggered from the Cymmetri platform for various actions occur
 
 1. **Mandatory Notifications**
 
-* Sign-up / Registration
-* OTP Notification
-* Access Code Manager Notification
-* Access Code User Notification
+<figure><img src="../../.gitbook/assets/image (1033).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (917).png" alt=""><figcaption></figcaption></figure>
+| Template                             | Trigger                                                                           | Usage                                                                                                | Recipient(s)                                                             |
+| ------------------------------------ | --------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Access Code Manager Notification** | Triggers when forgot password option used and user does not have email configured | It contains the MFA OTP for the user to enter and reset the forgotten password                       | User's Manager                                                           |
+| **Organization Sign-Up**             | Tenant registration                                                               | Sent when a new tenant (organization) is created in the system.                                      | The user performing the registration (initial Organization Admin).       |
+| **OTP Notification**                 | OTP-based MFA verification                                                        | Sends a One-Time Password (OTP) along with its expiry details to verify Multi-Factor Authentication. | The user attempting to log in using MFA.                                 |
+| **Password**                         | Admin/Manager password generation                                                 | Sends the system-generated password via email for user login.                                        | The user whose password has been generated or reset by an Admin/Manager. |
+| **Reset Password**                   | Admin/Manager initiated password reset                                            | Provides a secure reset password link allowing the user to set a new password.                       | The user whose password reset has been initiated.                        |
+| **Self Registration**                | User self-registration                                                            | Sends account details along with an activation link/button to activate the newly created account.    | The self-registered user.                                                |
 
 2. **Optional Notifications**
 
-* Workflow Notification
-* Reviewer Notification
-* Application Access Approval Request
-* Application Assignment
-* Delegation Assignee Notification
-* User Activation&#x20;
-* Application Scheduled Deprovisioning
-* Delegation User Notification
-* Application Access Approval Request Denied by Approver
-* Application Access Approval Request Granted
-* User Notification&#x20;
-* Login Failed
-* Password Expiry Notification&#x20;
-* Review Assignment Notification
-* Self Approval Notification&#x20;
-* Login Adaptive Failed Notification&#x20;
-* MFA Failed Notification&#x20;
-* User Threshold&#x20;
-* User attribute update / Profile update
-* Pending Access Certification Notification
-* Ad-Hoc Certification Notification
-* User Risk score changes&#x20;
-* Requestee Notification
-* Requestor Notification
-
 <figure><img src="../../.gitbook/assets/image (913).png" alt=""><figcaption></figcaption></figure>
+
+
+
+| Notification Template                     | Trigger                                                            | Usage                                                                                                                                                             | Recipient(s)                                                 |
+| ----------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| **Application Access Approval Request**   | Application provisioning or access/extension request is initiated. | Notifies the designated approver that a new access or extension request has been submitted. Includes requester details, application name, and requested duration. | Workflow Approver (Manager/Admin).                           |
+| **Application Access Approval – Denied**  | Access or extension request is rejected during workflow approval.  | Informs the requester that their access/extension request was not approved and may require follow-up with the administrator.                                      | Requesting User.                                             |
+| **Application Access Approval – Granted** | Access or extension request is approved during workflow.           | Confirms approval of application access/extension, including start and end dates of validity.                                                                     | Requesting User.                                             |
+| **Application Assignment**                | Application access is successfully provisioned to a user.          | Confirms that access has been granted. Specifies assignment type (new/extension) and validity period.                                                             | Assigned User.                                               |
+| **Application Scheduled Deprovisioning**  | Application access is nearing expiration.                          | Notifies the user of the scheduled termination date of their application access.                                                                                  | Assigned User.                                               |
+| **Campaign Aborted**                      | Access review campaign is aborted.                                 | Notifies relevant stakeholders that the campaign has been aborted. May include ticket reference (e.g., Jira ID).                                                  | Configured Campaign Stakeholders.                            |
+| **Campaign Start**                        | Access review campaign is initiated (manual/automatic).            | Notifies approvers that a campaign has started, including start date and deadline.                                                                                | Campaign Approvers.                                          |
+| **Campaign End**                          | Access review campaign concludes (manual/automatic).               | Provides final campaign summary, including counts of approvals, revocations, and pending items.                                                                   | Users defined in campaign configuration (Step 4 recipients). |
+| **Delegation Assignee Notification**      | A user is assigned as a delegate.                                  | Informs the user that they have been granted temporary delegation authority.                                                                                      | Delegatee User.                                              |
+| **Delegation User Notification**          | Delegation configuration is updated.                               | Notifies the delegator of changes made to their delegation setup and applicable time period.                                                                      | Delegating User.                                             |
+| **Flowable Reconciliation Mail**          | Flowable-based reconciliation event triggered.                     | Notifies configured recipients regarding reconciliation activity status.                                                                                          | Configured Recipients.                                       |
+| **Group Campaign Aborted**                | Group access review campaign is aborted.                           | Notifies stakeholders of campaign termination. May include incident reference ID.                                                                                 | Configured Group Campaign Stakeholders.                      |
+| **Group Campaign Start**                  | Group access review campaign is initiated.                         | Notifies approvers of campaign details including total assignments, review mode, and deadline.                                                                    | Group Campaign Approvers.                                    |
+| **Group Campaign End**                    | Group access review campaign concludes.                            | Provides final summary of approvals, revocations, and pending items.                                                                                              | Configured Recipients (Campaign Step 4).                     |
+| **Login Adaptive Failed Notification**    | Adaptive authentication attempt fails.                             | Alerts the user of login attempt from an unrecognized device, including login ID, IP address, and timestamp.                                                      | Affected User.                                               |
+| **Login Failed**                          | Multiple failed login attempts detected.                           | Notifies user of failed attempts, potential lockout status, and remaining attempts.                                                                               | Affected User.                                               |
+| **MFA Failed Notification**               | Multiple failed MFA attempts detected.                             | Alerts user of failed MFA attempts, including login ID, IP address, and possible account lockout status.                                                          | Affected User.                                               |
+| **Mover Notification**                    | Mover process initiated (role/department change).                  | Notifies user of access changes, including applications scheduled for removal or modification.                                                                    | Affected User.                                               |
+| **Password Expiry Notification**          | Password nearing expiration or already expired.                    | Notifies user of password expiration date and prompts immediate update.                                                                                           | Affected User.                                               |
+| **Reconciliation Initiation**             | Reconciliation process starts.                                     | Notifies configured users that reconciliation has begun and confirms start time.                                                                                  | Application Notification Recipients.                         |
+| **Reconciliation Completion**             | Reconciliation process completes successfully.                     | Provides completion time and summary of results.                                                                                                                  | Application Notification Recipients.                         |
+| **Reconciliation Failed**                 | Reconciliation process fails.                                      | Notifies recipients of failure, including reason and timestamp.                                                                                                   | Application Notification Recipients.                         |
+| **Reconciliation Aborted**                | Reconciliation process is aborted.                                 | Notifies recipients that reconciliation was cancelled, including reason and timestamp.                                                                            | Application Notification Recipients.                         |
+| **Requestee Notification**                | Access request for a user is approved or updated.                  | Notifies the user for whom the request was submitted regarding status change.                                                                                     | Request Target User.                                         |
+| **Requestor Notification**                | User submits access request on behalf of another user.             | Confirms submission and provides status updates for the initiated request.                                                                                        | Requesting User.                                             |
+| **Review Assignment Notification**        | Campaign reviewer has pending assignments at campaign start.       | Notifies reviewer of pending review tasks and campaign deadline.                                                                                                  | Campaign Reviewer.                                           |
+| **Reviewer Notification**                 | Reviewer has not taken action within configured pending period.    | Reminder notification including campaign details and pending task count.                                                                                          | Campaign Reviewer.                                           |
+| **Self Approval Notification**            | Self-approval action performed via workflow.                       | Confirms submission of self-approval request and processing status.                                                                                               | User performing self-approval.                               |
+| **User Activation**                       | New user onboarded.                                                | Provides activation link with expiry and login instructions.                                                                                                      | Newly Onboarded User.                                        |
+| **User Notification**                     | Campaign reminder triggered.                                       | Reminder for pending campaign tasks prior to deadline.                                                                                                            | Reviewer with pending tasks.                                 |
+| **User Threshold Notification**           | Configured user threshold limit exceeded.                          | Notifies that threshold limit has been exceeded and requires manual adjustment within defined time window.                                                        | Configured Threshold Owner(s).                               |
+| **Workflow Notification**                 | Workflow task with expiry is pending approval.                     | Notifies approver of pending task requiring action before expiration date.                                                                                        | Designated Workflow Approver.                                |
+
+
 
 _<mark style="color:green;">Please note: The above notifications are available out of the box. The system also allows custom notifications to be triggered for specific events using the Cymmetri Webhooks. The custom action trigger can call an existing Cymmetri notification template or a custom template can be included in the webhook code.</mark>_&#x20;
 
