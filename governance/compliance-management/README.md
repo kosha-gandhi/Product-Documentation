@@ -48,7 +48,7 @@ A qualitative risk score will be assigned based on the application risk factor a
 
 ### IAM Reporting
 
-Cymmetri allows monitoring of key IAM metrics as per the [Cymmetri reports](../insights/reports.md) under Insight menu. To read more and configure refer [this](../insights/reports.md).
+Cymmetri allows monitoring of key IAM metrics as per the [Cymmetri reports](../insights/reports/) under Insight menu. To read more and configure refer [this](../insights/reports/).
 
 Apart from the out of box reports, Cymmetri provides custom reporting and dashboards which provide the ability to view the Cymmetri data as per specific needs. This is possible through Cymmetri's [Analytics](../../analytics/cymmetri-analytics.md) module.
 
