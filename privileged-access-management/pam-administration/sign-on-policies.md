@@ -57,7 +57,7 @@ Conditions are evaluated using **user attributes and metadata** synchronized fro
 
 > MFA will be enforced for users whose designation is _Chief Executive Officer_ when they access servers.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 #### Logical Grouping
 
@@ -84,13 +84,13 @@ This is typically used for:
 * Exclude a _PAM-Emergency-Admins_ group
 * Exclude a dedicated _breakglass-admin_ user
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Access (MFA Enforcement)
 
 This step defines **how MFA is enforced** for matching users.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Authentication Method
 

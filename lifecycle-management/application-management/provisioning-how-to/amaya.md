@@ -81,7 +81,7 @@ For example:
 
 You can uncheck irrelevant fields to create a lean and precise mapping.<br>
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **CRUD Operations Configuration**
 
@@ -89,25 +89,25 @@ You can uncheck irrelevant fields to create a lean and precise mapping.<br>
 
 Endpoint: POST /api/now/table/sys\_user
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Body Template: A JSON payload that maps Cymmetri user attributes to ServiceNow fields. Cymmetri’s built-in JSON validation and beautification tools ensure the payload is correctly formatted.
 
 For example:
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Validate –
 
 Role Provisioning: An optional second node, Assign Role, can be added to the flow. This node consumes the sys\_id returned from the initial user creation to assign a role
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Role assign another node.
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Role Assignment and Unassignment**
 
@@ -115,11 +115,11 @@ Role assign another node.
 
 * Node 1 (Create User): Creates the user and captures the sys\_id as ${UID}.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Node 2 (Assign Role): Makes a POST call to /api/now/table/sys\_user\_role with a body that links the user (${UID}) and the role (${\_role}).
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Update User Operation**
 
@@ -129,7 +129,7 @@ To update an existing user, the system leverages the same attribute mapping used
 * Method: PUT
 * Purpose: This request updates an existing user record. The ${UID} variable, which is an alias for the user's sys\_id in ServiceNow, ensures that the specific user record is targeted. The request body contains the updated user attributes (e.g., first name, email, department), allowing for partial or full updates to the user's profile.
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Delete User Operation**
 
@@ -139,7 +139,7 @@ Deleting a user is a streamlined process that requires only the user's unique id
 * Method: DELETE
 * Purpose: This request permanently removes a user record from ServiceNow. The DELETE operation automatically handles the removal of all associated data, including any roles linked to the user's account.
 
-<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Role-Based Workflows
 
@@ -168,9 +168,9 @@ JSON\
 
 * Purpose: This step assigns a specific role to the user, identified by the ${\_role} variable, which is sourced from a pre-loaded CSV file containing over 200 role IDs within Cymmetri.
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Role Unassignment Flow**
 
@@ -181,16 +181,16 @@ This more complex three-node process is required because ServiceNow needs the sp
 3. API Endpoint: GET /api/now/table/sys\_user\_role?sysparm\_query=role=${\_role}^user=${UID}
 4. Output: The system captures the sys\_id of the role assignment record and stores it as the variable ${roleAssignmentID}.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Node 2: Remove Role
    1. Action: A DELETE request is made to the sys\_user\_role table to remove the role assignment.
    2. API Endpoint: DELETE /api/now/table/sys\_user\_role/${roleAssignmentID}
    3. Purpose: This final step explicitly removes the role from the user by using the unique identifier of the assignment&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (23) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Advanced Workflow and Data Transformation
 
