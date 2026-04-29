@@ -8,21 +8,21 @@ The page [here ](../../service-provider.md)shows how to configure a Service Prov
 
 Now Login to the Microsoft Entra portal, [https://entra.microsoft.com/](https://entra.microsoft.com/)
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Navigate to Enterprise applications and select New Application.
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on Create your own application, Enter the Application Name and click on the Create button.
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once the application is created click on the Single Sign On  menu and Set up Single Sign-On with SAML
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Download a metadata file from Cymmetri- Service Provider page (how to create service provider is shown above)
 
@@ -56,15 +56,15 @@ Go to Users and Groups, and select Add user/group and add the user.
 
 Navigate to External IDP in Identity Provider.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Select Azure-IDP.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Configure Azure AD for Creating Identity provider configuration
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, Continue the configuration of Identity Provider In Cymmetri Administration Console, copy Microsoft Entra Identifier from Set up,  navigate to azure-idp in Cymmetri, and paste it in Entity ID.&#x20;
 

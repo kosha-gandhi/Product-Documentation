@@ -8,9 +8,7 @@ In the absence of the ability of the managed application to adopt either the SAM
 
 <br>
 
-![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451746/original/kckP_vnMBdzvm-JfPggytqLjYKabq8dxsQ.png?1649360578)
-
-<br>
+<figure><img src="../../.gitbook/assets/ac418c50-f8a0-427f-b2b2-610abf53d67d.png" alt=""><figcaption></figcaption></figure>
 
 ### Flow Description
 
@@ -36,13 +34,11 @@ For configuring the REST API based SSO mechanism, first select the application a
 
 Then proceed to the SSO configuration using the “SignOn” link in the left-hand side menu bar.
 
-<br>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451755/original/imecqkCh2mufq16Nr5PUvTH1Tb2JStgR9w.png?1649360593)
+Enable the Single SignOn by clicking the toggle button on the right-hand side of the page and select API based SSO option.
 
-Enable the Single SignOn by clicking the toggle button on the right-hand side of the page.
-
-<figure><img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451761/original/0MfdYgXEoWa13JOK7fzsIcffDtgKaNYGYA.png?1649360611" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Now enter the application URL as below -&#x20;
 
@@ -52,24 +48,22 @@ Let us first copy the URL from the address bar -&#x20;
 
 The corresponding URL in my case is -&#x20;
 
-[https://ssotester.cymmetri.io/application/6241c3b604c15417a91c7030/sign-on](https://ssotester.cymmetri.io/application/6241c3b604c15417a91c7030/sign-on)
+[https://ssotester.cymmetri.io/identity-hub/application/69f1d4c8515a2826b48c5e03/sign-on](https://ssotester.cymmetri.io/identity-hub/application/69f1d4c8515a2826b48c5e03/sign-on)
 
 We evaluate the following values from the URL -&#x20;
 
 1. Base URL of the deployment - [https://ssotester.cymmetri.io](https://ssotester.cymmetri.io/)
-2. applicationId - 6241c3b604c15417a91c7030
+2. applicationId - 69f1d4c8515a2826b48c5e03
 
-Now we generate the Application URL as - [https://ssotester.cymmetri.io/apiSSO?applicationId=6241c3b604c15417a91c7030](https://ssotester.cymmetri.io/apiSSO?applicationId=6241c3b604c15417a91c7030)
+Now we generate the Application URL as - [https://ssotester.cymmetri.io/apiSSO?applicationId=69f1d4c8515a2826b48c5e03](https://ssotester.cymmetri.io/apiSSO?applicationId=69f1d4c8515a2826b48c5e03)
 
 Let us enter this value in the Application URL text bar and click the “Save” button.
 
-![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451766/original/2T8DhZa1v9fIim-QCPmsUsl44AMS18XvzQ.png?1649360635)
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-Let us proceed by selecting the radio button “API-based SSO”
+Now enter all the config information as shown below:&#x20;
 
-Click on the dropdown “Advanced Settings (API)” to configure the API-based SSO and enter the information:&#x20;
-
-![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003451798/original/BzsnyXSyHhRxghl5Hv9sjFZwCyMmzf2gVQ.png?1649360686)
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Configuration Parameters
 
@@ -82,16 +76,22 @@ Click on the dropdown “Advanced Settings (API)” to configure the API-based S
 
 ### Assign the application to a user.
 
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+When the application is assigned to the user as shown in the image above, the user can then go and access the applicatiom
+
 On clicking the application tile, the user is redirected to the URL below as per the configuration above.&#x20;
 
-[**http://localhost:4124/getToken**?_auth\_token_=](http://localhost:4124/getToken?auth_token=)\<random token>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+[**http://localhost:8080/getToken**?_auth\_token_=](http://localhost:4124/getToken?auth_token=)\<random token>
 
 Once the token is received by the application, the application makes a POST call as indicated by the CURL request below -&#x20;
 
 curl --location --request POST '[https://ssotester.cymmetri.io/api-sso/api/sso/validateToken](https://ssotester.cymmetri.io/api-sso/api/sso/validateToken)' \\\
 \--header 'Content-Type: application/x-www-form-urlencoded' \\\
-\--data-urlencode 'app\_id=demoapps' \\\
-\--data-urlencode 'app\_pass=Pras@4i1m$' \\\
+\--data-urlencode 'app\_id=usermgmt' \\\
+\--data-urlencode 'app\_pass=Pa\$$w0rd \\\
 \--data-urlencode 'auth\_token=\<random token>' \\\
 \--data-urlencode 'user\_ip=\<client IP address>'
 
@@ -163,7 +163,7 @@ public String apiCall(String urlStr, String inputStr) throws IOException
 }
 ```
 
-### Responses from the Validation
+### Response
 
 #### Success Response
 
@@ -172,7 +172,7 @@ JSON Response
 {
 “status”:”Success”,
 “allow_user”:”true”,
-“user_id”:”abhishek.kulkarni”
+“user_id”:”john.doe”
 }
 ```
 
@@ -183,7 +183,7 @@ JSON Response
 {
 “status”:”User not verified”,
 “allow_user”:”false”,
-“user_id”:”abhishek.kulkarni”
+“user_id”:”john.doe”
 }
 ```
 
@@ -194,7 +194,7 @@ JSON Response
 {
 “status”:”Application not verified”,
 “allow_user”:”false”,
-“user_id”:”abhishek.kulkarni”
+“user_id”:”john.doe”
 }
 ```
 

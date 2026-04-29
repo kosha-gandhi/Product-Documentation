@@ -81,7 +81,7 @@ For example:
 
 You can uncheck irrelevant fields to create a lean and precise mapping.<br>
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **CRUD Operations Configuration**
 
@@ -89,7 +89,7 @@ You can uncheck irrelevant fields to create a lean and precise mapping.<br>
 
 Endpoint: POST /api/now/table/sys\_user
 
-<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Body Template: A JSON payload that maps Cymmetri user attributes to ServiceNow fields. Cymmetri’s built-in JSON validation and beautification tools ensure the payload is correctly formatted.
 

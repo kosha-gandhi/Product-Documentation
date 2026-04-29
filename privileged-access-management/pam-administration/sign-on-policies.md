@@ -84,13 +84,13 @@ This is typically used for:
 * Exclude a _PAM-Emergency-Admins_ group
 * Exclude a dedicated _breakglass-admin_ user
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Access (MFA Enforcement)
 
 This step defines **how MFA is enforced** for matching users.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Authentication Method
 
