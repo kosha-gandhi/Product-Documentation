@@ -199,3 +199,32 @@ JSON Response
 ```
 
 In case of this error, “Application not verified” message must be shown by the managed application. The user must not be allowed to login. The application configuration on the Cymmetri Identity platform and the managed application must be validation and cross-verified.
+
+
+
+_**Note:**_ If you want a sample application to test API SSO, download the zip file below and follow the steps and ensure you have atleast Java 17 installed:
+
+{% file src="../../.gitbook/assets/SampleAPISSOApp.zip" %}
+
+### Steps to use this sample application as a Managed Application:
+
+* Download the zip file
+* Extract in a folder
+* Update the properties file as per your tenant name and application id
+
+<figure><img src="../../.gitbook/assets/image (1036).png" alt=""><figcaption></figcaption></figure>
+
+*   Ensure the users.csv file has entry for your user as shown below:
+
+    <figure><img src="../../.gitbook/assets/image (1038).png" alt=""><figcaption></figcaption></figure>
+* And then run this application locally using the below mentioned java command:
+
+```
+java -jar usermgmt-csv-0.0.1-SNAPSHOT.jar --spring.config.location=extcsvapp.properties
+```
+
+<figure><img src="../../.gitbook/assets/image (1039).png" alt=""><figcaption></figcaption></figure>
+
+* If the application is running successfully when the user accesses the app a log showing success or error response can be seen here, as shown below:
+
+<figure><img src="../../.gitbook/assets/image (1040).png" alt=""><figcaption></figcaption></figure>
