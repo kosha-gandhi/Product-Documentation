@@ -63,7 +63,7 @@ Let us enter this value in the Application URL text bar and click the “Save”
 
 Now enter all the config information as shown below:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1035).png" alt=""><figcaption></figcaption></figure>
 
 ### Configuration Parameters
 
