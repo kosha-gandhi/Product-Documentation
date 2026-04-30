@@ -18,13 +18,13 @@ These settings and configurations within Cymmetri are specifically related to th
 
 <figure><img src="../../.gitbook/assets/image (254).png" alt=""><figcaption><p>Email Config </p></figcaption></figure>
 
-**Archive Config**
+#### **Archive Config**
 
 Within the Archive Config section, administrators have the ability to determine the duration a user remains suspended before transitioning to the archived users' section. This can be specified using the "Archive After" setting.
 
 <figure><img src="../../.gitbook/assets/image20.png" alt=""><figcaption></figcaption></figure>
 
-#### **Scheduler Integration:**
+#### **Scheduler Integration**
 
 The system incorporates a scheduler feature, enabling administrators to automate the transition of users from the suspended state to the archived state. The scheduler runs within defined time frames, streamlining the management of user statuses.
 
@@ -58,7 +58,7 @@ The approvers mapped in the workflow can only be edited only if they are part of
 
 In conclusion, if the workflow preference config is set to Editable, the requester will only be able to select the approver from the workflow if the approvers are part of a user list.
 
-#### Reset Password Config:
+#### Reset Password Config
 
 The administrators have a centralized control panel to define how a user's manager can perform password resets. This feature streamlines the process while ensuring security and flexibility.
 
