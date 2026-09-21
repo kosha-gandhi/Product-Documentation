@@ -40,9 +40,11 @@ The policy map defines the attribute mapping between Cymmetri and AD. This is cr
 
 <figure><img src="../../../.gitbook/assets/unknown (11).png" alt=""><figcaption></figcaption></figure>
 
-3. Add any new or custom attributes by clicking Add new, entering the attribute name and description, and saving.
+3. Add any new or custom attributes by clicking Add new, entering the attribute name and description, and saving. For getting manager details you need to add a policy attribute \_\_MANAGER\_\_
 
 <figure><img src="../../../.gitbook/assets/unknown (10).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1042).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4: Configure User & Server Settings**
 
