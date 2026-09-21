@@ -88,7 +88,7 @@ The flow for assigning a group to an application goes as follows:
 
 &#x20; 3\. Click on the “Assign New” button in the Groups section.
 
-![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452927/original/FyPDfWvkssrdf2fjxUZx23scPYrpHsxboQ.png?1649362230)
+<img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003452927/original/FyPDfWvkssrdf2fjxUZx23scPYrpHsxboQ.png?1649362230" alt="" width="375">
 
 4\. Search for the group you wish to assign the application to and click on the assign button.
 

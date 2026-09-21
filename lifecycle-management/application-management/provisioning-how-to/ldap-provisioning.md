@@ -174,3 +174,12 @@ This section defines the connection parameters for the connector server.
 <figure><img src="../../../.gitbook/assets/image11 (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image28.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image33 (1).png" alt=""><figcaption></figcaption></figure>
+
+**Step 8: Execute Pull Reconciliation on LDAP**
+
+1. Follow the step given [here](../reconciliation-how-to/), and ensure you are using an ldap filter given below in the Search Query Filter textbox:\
+   (objectClass=inetOrgPerson)
+
+<figure><img src="../../../.gitbook/assets/image (1041).png" alt=""><figcaption></figcaption></figure>

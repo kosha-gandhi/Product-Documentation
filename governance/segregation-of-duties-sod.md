@@ -110,4 +110,4 @@ Violation example
 * Setup SoD Access Rule
   1. Define Violations
 
-![](<../.gitbook/assets/12 (1).png>)
+<img src="../.gitbook/assets/12 (1).png" alt="" width="473">

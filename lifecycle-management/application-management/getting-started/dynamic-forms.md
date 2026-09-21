@@ -73,7 +73,7 @@ The preview of the form looks as below after making the changes:
 
 Once configured the administrator can Click on the Save button.
 
-![](https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003453247/original/rv1xlOomrNqjVWATvEPk4P9nDxtxUF8n9Q.png?1649362681)
+<img src="https://s3-ap-south-1.amazonaws.com/ind-cdn.freshdesk.com/data/helpdesk/attachments/production/84003453247/original/rv1xlOomrNqjVWATvEPk4P9nDxtxUF8n9Q.png?1649362681" alt="" width="375">
 
 Once saved a confirm box appears to enable the form; the administrator needs to click on the **Confirm** button in the popup to enable the form for the application.
 

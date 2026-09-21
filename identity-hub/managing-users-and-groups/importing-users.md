@@ -28,7 +28,7 @@ Match the Column names from the CSV file with the Cymmetri User Attributes using
 
 Scroll down and click on the **Import** button.\
 \
-&#xNAN;_**Note:** A "Skip user workflow" check box is available to skip execution of any user workflow configured for the creation of users, if not selected it may trigger user creation workflow, and the process of importing users may slow down due to the numerous approvals that the approver might have to do._
+_**Note:** A "Skip user workflow" check box is available to skip execution of any user workflow configured for the creation of users, if not selected it may trigger user creation workflow, and the process of importing users may slow down due to the numerous approvals that the approver might have to do._
 
 Once Imported results of successfully Imported Users, Duplicate Users, or any error that occurred during import can be seen in **Logs > Import History** page
 
